@@ -11,7 +11,7 @@ Greatest Increase in Profits: Feb-2012 ($1,926,159.00)
 Greatest Decrease in Profits: Sep-2013 ($-2,196,167.00)
 ```
 ## Notes on the assignment (for my own memory, mostly!):
-* Code can be found inline below, and within the [`python-challenge` repo](https://github.com/ekenigsberg/BootCampHomework03-2019-06-05/tree/master/python-challenge/PyBank) replicated inside BootCampHomework03-2019-06-05
+* Code can be found inline below, and [within the `python-challenge` repo](https://github.com/ekenigsberg/BootCampHomework03-2019-06-05/tree/master/python-challenge/PyBank) replicated inside BootCampHomework03-2019-06-05
 * The sample output in the assignment wasn't CSV-formatted, so I had Python create TXT output
 * Note the currency formatting using thousands separators and two decimal places (as usual, [Stack Overflow](https://stackoverflow.com/questions/36626017/format-a-number-with-comma-separators-and-round-to-2-decimal-places-in-python-2) provided the single most helpful link)
 * Computing average change was bit trickier than it would first seem:
@@ -35,7 +35,7 @@ WINNER: Khan
 ---------------------------------
 ```
 ## Notes on the assignment:
-* Code can be found inline below, and within the [`python-challenge` repo](https://github.com/ekenigsberg/BootCampHomework03-2019-06-05/tree/master/python-challenge/PyPoll) replicated inside BootCampHomework03-2019-06-05
+* Code can be found inline below, and [within the `python-challenge` repo](https://github.com/ekenigsberg/BootCampHomework03-2019-06-05/tree/master/python-challenge/PyPoll) replicated inside BootCampHomework03-2019-06-05
 * I gussied up the output by aligning text values with `ljust()` and numeric values with `rjust()`
 * If the column headers are changed, the rest of the table dynamically resizes itself:
    ```python
