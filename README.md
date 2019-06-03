@@ -37,7 +37,11 @@ WINNER: Khan
 ## Notes on the assignment:
 * Code can be found inline below, and within the [`python-challenge` repo](https://github.com/ekenigsberg/BootCampHomework03-2019-06-05/tree/master/python-challenge/PyPoll) replicated inside this repo
 * I gussied up the output by aligning text values with `ljust()` and numeric values with `rjust()`
-* If the column headers are changed, the rest of the table dynamically resizes itself
+* If the column headers are changed, the rest of the table dynamically resizes itself:
+   ```python
+   strHeads = ['CANDIDATE ', ' PERCENT ', ' TOTAL VOTES']
+   intHeadLens = [len(str) for str in strHeads]
+   ```
 * The table borders are generated with a simple function
   - I started to fiddle with drawing the borders using [UTF8 box borders](https://stackoverflow.com/questions/46063974/printing-extended-ascii-characters-in-python)\-\-it requires adding an `encoding=UTF-8` parameter to the `open()` function\-\-but I couldn't get it to work quite right, so I set it aside.
 * More credit to Stack Overflow for [an efficient answer](https://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary/280156#280156) to "How do I show the key tied to the max value in a dictionary?"
