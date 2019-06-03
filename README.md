@@ -1,5 +1,7 @@
 # BootCampHomework03-2019-06-05
 
+Here's the original [python-challenge repository](https://github.com/ekenigsberg/python-challenge). I've also copied those files as a subdirectory of this BootCampHomework03-2019-06-05 repo.
+
 # Output: PyBank
 ```
 Financial Analysis
